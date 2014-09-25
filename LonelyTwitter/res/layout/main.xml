@@ -44,5 +44,12 @@
         android:layout_height="wrap_content"
         android:text="@string/save"
         android:onClick="save" />
+    
+    <Button
+		android:id="@+id/summaryButton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Summary"
+		android:onClick="showSummary" />
 
 </LinearLayout>
